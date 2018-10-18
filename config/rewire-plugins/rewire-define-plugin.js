@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 const DefinePlugin = webpack.DefinePlugin
-const { scriptVersion } = require('../node_modules/react-app-rewired/scripts/utils/paths')
+const { scriptVersion } = require('../../node_modules/react-app-rewired/scripts/utils/paths')
 const { raw } = require(`${scriptVersion}/config/env`)()
 
 
