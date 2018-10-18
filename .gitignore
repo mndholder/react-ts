@@ -22,3 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# automatically generated css typings
+/src/**/*.css.d.ts
+/src/**/*.scss.d.ts
